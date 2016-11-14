@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+.c-list {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #dadada; }
+
+.c-item {
+  height: 60px;
+  border-bottom: 1px dotted #fafafa; }
+  .c-item img {
+    float: left; }
+
+.c-box {
+  margin-left: 70px;
+  height: 60px; }
+  .c-box h4 {
+    height: 30px;
+    line-height: 30px;
+    color: #036;
+    font-size: 14px; }
+  .c-box p {
+    height: 30px;
+    line-height: 30px;
+    color: #aaa; }
