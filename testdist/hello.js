@@ -108,7 +108,10 @@
 	    return Hello;
 	}(_react2.default.Component);
 
-	_reactDom2.default.render(_react2.default.createElement(Hello, { name: 'blue' }), document.getElementById('example'));
+	var oDiv = document.createElement('div');
+	oDiv.id = "example";
+	document.body.appendChild(oDiv);
+	_reactDom2.default.render(_react2.default.createElement(Hello, { name: 'blue' }), oDiv);
 
 /***/ },
 /* 1 */

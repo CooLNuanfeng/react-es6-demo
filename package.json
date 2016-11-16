@@ -8,6 +8,8 @@
     "testdev": "webpack-dev-server --config webpack.test.config.js --hot --inline",
     "demo": "webpack --config webpack.demo.config.js",
     "demoDev": "webpack-dev-server --config webpack.demo.config.js --hot --inline",
+    "html" : "webpack --config webpack.html.config.js",
+    "htmlDev" : "webpack-dev-server --config webpack.html.config.js --hot --inline",
     "build": "webpack",
     "dev": "webpack-dev-server  --hot --inline"
   },
@@ -21,6 +23,9 @@
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
     "node-sass": "^3.11.2",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

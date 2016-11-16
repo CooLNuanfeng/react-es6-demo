@@ -1,10 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-ul,li{
-    list-style: none;
-}
+@import '../../sassCore/_base.scss';
 
 .c-list{
     width: 100%;

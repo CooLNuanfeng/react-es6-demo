@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 
-
 import './commentList.scss';
 import ItemList from './itemList.js';
 
