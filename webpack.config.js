@@ -3,7 +3,8 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin"); // 将css单独�
 module.exports = {
     entry : {
         'app' : './app/app.js',
-        'demo' : './app/demo.js'
+        'demo' : './app/demo.js',
+        'showlog' : './app/showlog.js'
     },
     output : {
         path : './dist/',
